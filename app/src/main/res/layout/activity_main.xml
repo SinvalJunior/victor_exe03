@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.opet.victor_exe03.MainActivity">
+
+    <TextView
+        android:text="A. Quanto é 10 + 10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/Per_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="17"/>
+
+    <TextView
+        android:text="B. Quanto é 17 + 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="17"/>
+
+    <CheckBox
+        android:id="@+id/Per_B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20"/>
+
+    <TextView
+        android:text="C. Quanto é 24 + 17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30"/>
+
+    <CheckBox
+        android:id="@+id/Per_C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="41"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="37"/>
+
+    <TextView
+        android:text="D. Quanto é 65 + 7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/Per_D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="72"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="73"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="76"/>
+
+    <TextView
+        android:text="E. Quanto é 126 + 257"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/Per_E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="383"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="393"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="384"/>
+
+    <Button
+        android:onClick="resultado"
+        android:id="@+id/cacular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado da conta"/>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>
+
+</ScrollView>
